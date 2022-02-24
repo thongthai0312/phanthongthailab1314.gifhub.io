@@ -1,0 +1,61 @@
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+    min-height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid black;
+}
+.boxleft{
+    width: 75%;
+    min-height: 500px;
+    float: left;
+    border: 1px solid black;
+}
+.boxright{
+    
+    width: 25%;
+    min-height: 500px;
+    float: left;
+    border: 1px solid black;
+}
+.anh{
+    
+    margin-top: 10px;
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid black;
+}
+.anh img{
+    width: 300px;
+    height: 150px;
+}
+
+.phai{
+    
+    float: right;
+    position: relative;
+    width: 40%;
+    height: 300px;
+}
+.trai{
+    float: left;
+    position: relative;
+    
+    width: 60%;
+    height: 300px;
+    
+    
+}
+.map{
+    float: left;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    
+}
